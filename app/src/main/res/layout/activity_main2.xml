@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_marginTop="15dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="12dp"
+    android:gravity="center"
+    android:text="Diario"
+    android:textColor="#000000"
+    android:fontFamily="@font/pacifico"
+    android:textSize="40dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:text=""
+        android:textSize="2dp"/>
+
+    <EditText
+        android:id="@+id/diario"
+        android:background="@drawable/buttonshape2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/amarante"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Escribe para añadir al diario" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="22dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="66dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="Cancelar"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="cancelar"
+            android:textColor="#000000"
+            android:fontFamily="@font/pacifico"/>
+
+        <Button
+            android:id="@+id/anadir"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="66dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="PonerTexto"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="añadir"
+            android:fontFamily="@font/pacifico"
+            android:textColor="#000000"
+            />
+
+</LinearLayout>
+
+</LinearLayout>
